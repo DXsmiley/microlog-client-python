@@ -8,6 +8,8 @@ A minimal python client for [microlog](https://github.com/dxsmiley/microlog).
 
 It's currently not set up to be friendly. The best option at the moment is just to copy the `microlog.py` file.
 
+This library relies on the requests library. To install it, run `pip install requests` from the terminal.
+
 ## API
 
 ### `microlog.start(username, api_token, **kwargs)`
